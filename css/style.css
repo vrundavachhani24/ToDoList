@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(9, 98, 150);
+}
+.containar{
+    color: white;
+    text-align: center;
+}
+.list{
+   
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 300px;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+}
+.btn{
+    background-color: rgb(3, 34, 53);
+    color: white;
+    padding: 22px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+}
+.btn:hover{
+    background-color: rgb(17, 54, 75);
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: start;
+    border: 1px solid white;
+    height: 53px;   
+    width: 410px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    float: right;
+}
+
+.Edit{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    float: right;
+    margin-left: 5px;
+}
+
+.update{
+    background-color: rgb(3, 34, 53);
+    color: white;
+    padding: 22px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+}
+.update:hover{
+    background-color: rgb(17, 54, 75);
+}
+
+.edit-input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+

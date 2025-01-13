@@ -1,0 +1,119 @@
+body{
+    background-image: linear-gradient(to right , rgb(71, 71, 156) , rgb(155, 202, 221));
+}
+
+.cover{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+
+.list{
+   
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 350px;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 15px;
+    /* border: none; */
+    margin: 25px;
+}
+.btn{
+    background-color: rgb(4, 113, 180);
+    color: white;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(22, 62, 148);
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    text-align: start;
+    /* margin-inline-end: auto; */
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid rgb(207, 201, 201);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.delete{
+    background-color: rgb(250, 55, 55);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    float: right;
+}
+li .delete{
+    margin-top: -15px;
+}
+.delete:hover{
+    background-color: red;
+}
+
+.Edit{
+    background-color: rgb(5, 156, 5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    float: right;
+    margin-right: 5px;
+}
+li .Edit{
+    margin-top: -15px;
+}
+.Edit:hover{
+    background-color: green;
+}
+
+.edit-input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.save{
+    background-color: rgb(10, 143, 10);
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.save:hover{
+    background-color: green;
+}
+
+.cancel{
+    background-color: rgb(252, 42, 42);
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cancel:hover{
+    background-color: red;
+}
